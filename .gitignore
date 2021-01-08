@@ -2,5 +2,13 @@
 node_modules
 jspm_packages
 
+# resources that should be generated on demand
+resources
+
+
 # Serverless directories
 .serverless
+
+# other junk
+.idea
+.DS_Store

@@ -1,0 +1,26 @@
+{
+  "name": "lambda-fs-benchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js",
+    "generate-input-file": "head -c 1073741824 < /dev/urandom > resources/input.txt && chmod 644 resources/input.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrskrchr/lambda-fs-benchmark.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrskrchr/lambda-fs-benchmark/issues"
+  },
+  "homepage": "https://github.com/chrskrchr/lambda-fs-benchmark#readme",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "stats-lite": "^2.2.0"
+  }
+}
